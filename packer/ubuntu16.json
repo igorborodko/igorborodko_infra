@@ -2,12 +2,13 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/house/C:UsershouseOneDriveДокументыiam_keykey.json",
+            "service_account_key_file": "/home/house/key.json",
             "folder_id": "b1gb2j0k0cdnboead62b",
             "source_image_family": "ubuntu-1604-lts",
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
+			"use_ipv4_nat": true,
             "platform_id": "standard-v1"
         }
 	],

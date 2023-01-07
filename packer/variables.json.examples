@@ -1,0 +1,10 @@
+"variables": [
+		{
+            "folder_id": "b1gb2j0k",
+            "source_image_id": "ubuntu-1604",
+            "service_account_key_file": "/home/house/key.json",
+            "ssh_username": "username",
+            "use_ip_nat: "true"
+		}
+    }
+]
