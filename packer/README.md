@@ -2,12 +2,13 @@
 igorborodko Infra repository
 
 
-
 #Создал ВМ из образа
 Доступна по http://158.160.36.205:9292/
 
-Сделал  variables.json.examples 
+#Сделал шаблон variables.json.examples 
 
+#Сделал шаблон bake-образа с запущенным приложением	immutable.json
+скрипты для него лежат в \packer\files
 Подробнее ниже.
 ---------------------------------------------------------------
 root@Igor:/# yc config list
