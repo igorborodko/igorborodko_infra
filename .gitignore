@@ -5,4 +5,3 @@ DZ.*
 *.tfstate.backup
 *.tfvars
 .terraform/
-README.md
